@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib>
 
 /**
 *main - C programme that prints exact strings using printf and puts to stderr
