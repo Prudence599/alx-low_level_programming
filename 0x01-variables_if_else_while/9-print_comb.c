@@ -3,7 +3,7 @@
 #include <time.h>
 
 /**
-*main - program that prints lowercase alphabets in reverse order.
+*main - program that prints possible combination of single digits.
 *
 *Author: Kosisochukwu Prudence Okey-Nwankwo
 *
@@ -13,17 +13,18 @@
 
 int main(void)
 {
-int d;
-char c;
+	int d;
 
-for (d = 47; d <= 57; d++)
-{
-putchar(d);
-}
-if (d != 57)
-{
-putchar(44);
-putchar(32);
-}
-return (0);
+	for (d = 47; d <= 57; d++)
+	{
+		putchar(d);
+
+		if (d == 57)
+			continue;
+
+		putchar(44);
+		putchar(32);
+	}
+	putchar('\n');
+	return (0);
 }

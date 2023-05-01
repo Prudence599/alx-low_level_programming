@@ -13,11 +13,12 @@
 
 int main(void)
 {
-int i;
-for (i = 48; i <= 57; i++)
-{
-printf("%d\n", i);
-printf("\n");
-}
+	int i;
+	
+	for (i = 48; i <= 57; i++)
+	{
+		printf("%d\n", i);
+		printf("\n");
+	}
 return (0);
 }
