@@ -3,7 +3,7 @@
 #include <time.h>
 
 /**
-*main - A Program that  assigns a random number to a variable
+*main - A Program that assigns a random number to a variable
 *
 *Author: Kosisochukwu Prudence Okey-Nwankwo
 *
@@ -16,7 +16,8 @@ int main(void)
 	/*main returns a value each time the variable is executed*/
 
 {
-	int n; int Last_digit;
+	int n;
+	int Last_digit;
 
 	Last_digit = n % 10;
 	srand(time(0));
@@ -35,5 +36,5 @@ int main(void)
 	{
 		printf("Last digit of %d is %d and is 0\n", n, Last_digit);
 	}
-return (0);
+	return (0);
 }

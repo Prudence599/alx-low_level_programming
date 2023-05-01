@@ -15,10 +15,10 @@ int main(void)
 {
 	int i;
 	
-	for (i = 48; i <= 57; i++)
+	for (i = '0'; i <= '9'; i++)
 	{
-		printf("%d\n", i);
+		printf("%d", i);
 		printf("\n");
 	}
-return (0);
+	return (0);
 }

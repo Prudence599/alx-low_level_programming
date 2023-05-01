@@ -15,15 +15,15 @@ int main(void)
 {
 	int d;
 
-	for (d = 47; d <= 57; d++)
+	for (d = '0'; d <= '9'; d++)
 	{
 		putchar(d);
 
-		if (d == 57)
+		if (d == 9)
 			continue;
 
-		putchar(44);
-		putchar(32);
+		putchar(',');
+		putchar(' ');
 	}
 	putchar('\n');
 	return (0);
