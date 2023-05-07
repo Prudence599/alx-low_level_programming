@@ -13,12 +13,19 @@
 
 int main(void)
 {
-	int d;
+	int n;
 
-	for (d = 48; d <= 57; d++)
+	for (n = 48; n < 58; n++)
+
 	{
-		putchar(d);
-		putchar('\n');
+
+		putchar(n);
+
 	}
-return (0);
+
+	putchar('\n');
+
+	return (0);
+
 }
+

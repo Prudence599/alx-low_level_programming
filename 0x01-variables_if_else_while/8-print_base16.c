@@ -13,19 +13,27 @@
 
 int main(void)
 {
-	int d;
-	char c;
+	int n;
 
-	for (d = '0'; d <= '9'; d++)
+	char ch;
+
+	for (n = 48; n < 58; n++)
+
 	{
-		putchar(d);
+
+		putchar(n);
+
 	}
 
-	for (c = 'a'; c <= 'f'; c++)
+	for (ch = 'a'; ch <= 'f'; ch++)
+
 	{
-		putchar(c);
-		putchar('\n');
+		putchar(ch);
+
 	}
 
-return (0);
+	putchar('\n');
+
+	return (0);
+
 }

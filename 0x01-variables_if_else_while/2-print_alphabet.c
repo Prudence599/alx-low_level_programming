@@ -12,17 +12,17 @@
 **/
 
 int main(void)
-/*main contains all codes*/
 {
+	char ch;
 
-char low;
+	for (ch = 'a'; ch <= 'z'; ch++)
 
-for (low  = 'a'; low <= 'z'; low++)
+	{
+		putchar(ch);
 
-{
-putchar(low);
-putchar('\n');
-}
+	}
 
-return (0);
+	putchar('\n');
+
+	return (0);
 }

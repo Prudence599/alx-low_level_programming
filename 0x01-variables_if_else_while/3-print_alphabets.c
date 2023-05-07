@@ -1,6 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+
 
 /**
 *main - program that prints lower case alphabets followed by a new line.
@@ -12,20 +11,19 @@
 **/
 
 int main(void)
-/*main contains all codes*/
 {
+	int ch;
 
-char low;
-char upp;
+	for (ch = 'a'; ch <= 'z'; ch++)
 
-for (low  = 'a'; low <= 'z'; low++)
-{
-putchar(low);
-}
-for (upp = 'A'; upp <= 'Z'; upp++)
-{
-putchar(upp);
-putchar('\n');
-}
-return (0);
+	putchar(ch);
+
+	for (ch = 'A'; ch <= 'Z'; ch++)
+
+	putchar(ch);
+
+	putchar('\n');
+
+	return (0);
+
 }
