@@ -7,11 +7,10 @@
  * @a: input pointer
  * @size: size of the matrix
  */
+
 void print_diagsums(int *a, int size)
 {
 	int i, S1, S2;
-
-	S1, S2;
 
 	S1 = 0;
 	S2 = 0;
