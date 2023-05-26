@@ -1,6 +1,7 @@
 #include "main.h"
 #include <stdarg.h>
-
+#include <stdlib.h>
+#include <stdio.h>
 
 /**
  * print_strings - A function that print strings followed by a new line.
